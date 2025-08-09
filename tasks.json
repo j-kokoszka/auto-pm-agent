@@ -1,0 +1,19 @@
+[
+  {
+    "summary": "Preparation of the Research Environment and Methodology",
+    "description": "Defining workload scenarios, selecting metrics, and installing the Kubernetes cluster.",
+    "issue_type": "Epic"
+  },
+  {
+    "summary": "Planning of Experiments",
+    "description": "Detailed planning of tests for VPA, HPA, and KEDA.",
+    "issue_type": "Task",
+    "parent_summary": "Preparation of the Research Environment and Methodology"
+  },
+  {
+    "summary": "Deployment of Prometheus and Grafana",
+    "description": "Installation of monitoring tools within the test cluster to collect data from experiments.",
+    "issue_type": "Task",
+    "parent_summary": "Preparation of the Research Environment and Methodology"
+  }
+]
